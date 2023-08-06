@@ -19,6 +19,10 @@
 
 function table(number) {
     console.log("complete com o código aqui! :)");
+
+    for(let i = 1; i <= 10; i++) {
+        console.log(`${i} x ${number} = ${i * number}`)
+    }
 }
 
 table(2);
@@ -26,5 +30,13 @@ table(2);
 // Bônus:
 // Agora coloque mais um parâmetro na função: ao invés da tabuada ir de 1 a 10, 
 // agora ela pode ir de 1 até x.
+
+function bonus(number, x) {
+    for(let i = 1; i <= x; i++) {
+        console.log(`${i} x ${number} = ${i*number}`);
+    }
+}
+
+bonus(3, 30)
 
 
