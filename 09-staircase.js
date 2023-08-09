@@ -21,7 +21,12 @@
 // ######
 
 function staircase(n) {
-	console.log("complete com o código aqui! :)");
+	for(let i = 1; i <= n; i++) {
+		const space = ' '.repeat(n - i);
+		const house = '#'.repeat(i)
+
+		console.log(space + house)
+	}
 }
 
 
